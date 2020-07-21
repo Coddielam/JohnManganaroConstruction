@@ -1,0 +1,98 @@
+div.remodeling-page {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.863), rgba(0, 0, 0, 0.808)),
+    url(/assets/Remodeling/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+div.remodeling-info {
+  color: white;
+  padding: 1vw 5vw;
+  line-height: 30px;
+}
+
+.remodeling-ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 5vw;
+}
+
+.remodeling-ul ul {
+  min-width: 200px;
+}
+
+.deck-page {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(102, 54, 0, 0.527),
+      rgba(102, 54, 0, 0.527)
+    ),
+    url(/assets/Decks/background.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 5vh 0;
+}
+
+.decks-info {
+  color: white;
+  width: 100%;
+  padding: 0 10%;
+}
+
+.decks-info h1 {
+  margin-top: 0;
+}
+
+.grid-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* margin: 5vh 0; */
+}
+
+.grid {
+  display: flex;
+  max-width: 80vw;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgba(255, 255, 255, 0.24);
+  margin-bottom: 5vh;
+}
+
+.grid img {
+  height: 300px;
+  width: 300px;
+  max-width: 85vw;
+  max-height: 85vw;
+  cursor: pointer;
+  margin: 2vw;
+  transition: transform 0.5s;
+}
+
+.grid img:hover {
+  transform: scale(1.1);
+}
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.774);
+  display: none;
+  z-index: 1000;
+}
+
+.lightbox-active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 80%;
+}

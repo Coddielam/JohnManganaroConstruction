@@ -1,0 +1,34 @@
+div.addition-service {
+  color: white;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 5vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.623)),
+    url(/assets/Additions/background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+div.addition-bisection {
+  display: flex;
+  flex-wrap: wrap;
+
+  max-width: 80vw;
+  justify-content: center;
+  align-items: center;
+  padding: 3vw;
+  background-color: rgba(17, 17, 17, 0.856);
+}
+
+div.addition-bisection section,
+div.addition-bisection ul {
+  padding: 0 3vw;
+  width: 500px;
+}
+
+div.addition-bisection img {
+  min-width: 200px;
+  padding-bottom: 2vh;
+  margin-top: 2vh;
+}

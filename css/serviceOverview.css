@@ -1,0 +1,175 @@
+section.service-overview {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 35vh;
+  height: fit-content;
+  background-color: #222222;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  padding: 20px;
+}
+
+.service {
+  height: 200px;
+  width: 300px;
+  margin: 0 20px;
+  margin-bottom: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.service-overview h3 {
+  margin-bottom: 0;
+}
+
+.service h3 {
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(17, 17, 17, 0.575);
+}
+
+div.addition {
+  background-image: url(/assets/AdditionService.jpg);
+}
+div.remodeling {
+  background-image: url(/assets/RemodelingService.jpg);
+}
+div.decks {
+  background-image: url(/assets/DecksService.jpg);
+}
+div.service {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 5px 10px 10px black;
+  min-width: 150px;
+}
+
+/* bisections */
+section.bisection {
+  min-height: 50vh;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15vw;
+}
+
+div.picture {
+  height: 35vh;
+  width: fit-content;
+  padding: 20px;
+  text-align: center;
+}
+
+div.picture img {
+  height: 33vh;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.589);
+}
+
+div.info {
+  padding: 50px;
+  color: rgba(255, 255, 255, 0.884);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-shadow: 1px 1px 2px black;
+}
+
+.bisection1 {
+  background-color: #70b6dfdc;
+}
+
+.bisection2 {
+  background-color: #222222;
+}
+.bisection2 img {
+  height: 100%;
+}
+ul.bisec2 {
+  position: relative;
+  left: 50px;
+}
+
+.bisection3 img {
+  display: none;
+}
+
+section.bisection3 > div.picture {
+  width: 55vw;
+}
+
+.bisection3 {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.438),
+      rgba(255, 255, 255, 0.438)
+    ),
+    url(/assets/InteriorPainting.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+
+.bisection3 div {
+  color: rgba(5, 5, 5, 0.897);
+  text-shadow: 1px 1px 0.5px rgba(255, 255, 255, 0.247);
+}
+
+ul.bisec3 {
+  position: relative;
+  left: 50px;
+}
+.bisection3 div.picture {
+  display: none;
+}
+
+.bisection3 div.info {
+  background-color: rgba(245, 245, 245, 0.664);
+}
+
+.bisec3uls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 30vw;
+}
+.bisec3uls ul,
+.bisec2 {
+  margin-top: 10px;
+}
+
+.bisection4 {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.671),
+      rgba(255, 255, 255, 0.671)
+    ),
+    url(/assets/Contact.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.bisection4 form {
+  color: black;
+  text-shadow: none;
+}
+
+@media screen and (max-width: 768px) {
+  section.bisection {
+    flex-wrap: wrap;
+  }
+  section.bisection2 div.picture {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  section.bisection4 div.info {
+    padding: 30px 0;
+    width: 100%;
+  }
+}
