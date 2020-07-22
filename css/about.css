@@ -8,7 +8,7 @@ div.about-us {
   flex-wrap: wrap;
   line-height: 30px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.253)),
-    url(assets/Decks/Nine.jpg);
+    url("assets/Decks/Nine.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
