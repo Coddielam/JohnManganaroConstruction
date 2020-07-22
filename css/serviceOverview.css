@@ -35,13 +35,13 @@ section.service-overview {
 }
 
 div.addition {
-  background-image: url(/assets/AdditionService.jpg);
+  background-image: url(/JohnManganaroConstruction/assets/AdditionService.jpg);
 }
 div.remodeling {
-  background-image: url(/assets/RemodelingService.jpg);
+  background-image: url(/JohnManganaroConstruction/assets/RemodelingService.jpg);
 }
 div.decks {
-  background-image: url(/assets/DecksService.jpg);
+  background-image: url(/JohnManganaroConstruction/assets/DecksService.jpg);
 }
 div.service {
   background-position: center;
@@ -110,7 +110,7 @@ section.bisection3 > div.picture {
       rgba(255, 255, 255, 0.438),
       rgba(255, 255, 255, 0.438)
     ),
-    url(/assets/InteriorPainting.jpg);
+    url(/JohnManganaroConstruction/assets/InteriorPainting.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -150,7 +150,7 @@ ul.bisec3 {
       rgba(255, 255, 255, 0.671),
       rgba(255, 255, 255, 0.671)
     ),
-    url(/assets/Contact.jpg);
+    url(/JohnManganaroConstruction/assets/Contact.jpg);
   background-position: center;
   background-size: cover;
 }
