@@ -1,7 +1,7 @@
 const navbarContent = `
 <div class="brand">
   <h2>
-    <img class="logo" src="/assets/JohnManganaroLogo.png"> 
+    <img class="logo" src="assets/JohnManganaroLogo.png"> 
     <span class="brand-name">John Manganaro Construction</span> 
   </h2>
 </div>
