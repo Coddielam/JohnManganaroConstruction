@@ -3,7 +3,7 @@ div.banner {
       rgba(255, 255, 255, 0.671),
       rgba(255, 255, 255, 0.671)
     ),
-    url(assets/JohnManganaroBanner.jpg);
+    url(/JohnManganaroConstruction/assets/JohnManganaroBanner.jpg);
   min-height: 50vh;
   width: 100%;
   background-position: 72%;
