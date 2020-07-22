@@ -1,6 +1,6 @@
 div.remodeling-page {
   background-image: linear-gradient(rgba(0, 0, 0, 0.863), rgba(0, 0, 0, 0.808)),
-    url(/assets/Remodeling/background.jpg);
+    url(/JohnManganaroConstruction/assets/Remodeling/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -30,7 +30,7 @@ div.remodeling-info {
       rgba(102, 54, 0, 0.527),
       rgba(102, 54, 0, 0.527)
     ),
-    url(/assets/Decks/background.jpg);
+    url(/JohnManganaroConstruction/assets/Decks/background.jpg);
   background-position: center;
   background-size: cover;
   padding: 5vh 0;
