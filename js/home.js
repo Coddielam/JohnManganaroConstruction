@@ -41,7 +41,7 @@ const JohnIntro = `
 const JohnMWelcome = bisectionConstructor(
   JohnIntro,
   ["bisection1"],
-  "/assets/JohnManganaro.jpg",
+  "/JohnManganaro/assets/JohnManganaro.jpg",
   "Picture of John Manganaro",
   true
 );
@@ -66,7 +66,7 @@ const projectsCovered = `
 const coverProjects = bisectionConstructor(
   projectsCovered,
   ["bisection2"],
-  "/assets/BestOfMelroseCert.jpg",
+  "/JohnManganaro/assets/BestOfMelroseCert.jpg",
   "Best of Melrose 2018 Award Certificate"
 );
 
