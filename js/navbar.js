@@ -6,7 +6,7 @@ const navbarContent = `
   </h2>
 </div>
 <ul class="nav-items">
-    <li class="nav"><a href="/" class="home">Home</a></li>
+    <li class="nav"><a href="#home" class="home">Home</a></li>
     <li class="nav"><a href="#about" class="about">About Us</a></li>
     <li class="nav nav-dropdown">
         <a>Services <i class="dropdown-caret" style="font-size:12px">&#9660;</i> </a>
