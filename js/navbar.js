@@ -1,7 +1,7 @@
 const navbarContent = `
 <div class="brand">
   <h2>
-    <img class="logo" src="/JohnManganaro/assets/JohnManganaroLogo.png"> 
+    <img class="logo" src="/assets/JohnManganaroLogo.png"> 
     <span class="brand-name">John Manganaro Construction</span> 
   </h2>
 </div>
@@ -11,10 +11,10 @@ const navbarContent = `
     <li class="nav nav-dropdown">
         <a>Services <i class="dropdown-caret" style="font-size:12px">&#9660;</i> </a>
         <ul class="dropdown-content">
-            <li class="dropdown-item"><a href="/JohnManganaro/#remodeling" class="remodeling">Remodeling</a></li>
-            <li class="dropdown-item"><a href="/JohnManganaro/#renovations" class="rennovations">Renovations</a></li>
-            <li class="dropdown-item"><a href="/JohnManganaro/#additions" class="additions">Additions</a></li>
-            <li class="dropdown-item"><a href="//JohnManganaro/#decks" class="decks">Decks</a></li>
+            <li class="dropdown-item"><a href="#remodeling" class="remodeling">Remodeling</a></li>
+            <li class="dropdown-item"><a href="#renovations" class="rennovations">Renovations</a></li>
+            <li class="dropdown-item"><a href="#additions" class="additions">Additions</a></li>
+            <li class="dropdown-item"><a href="#decks" class="decks">Decks</a></li>
         </ul>
     </li>
     <li class="nav"><a href="#contacts" class="contact">Contact</a></li>
